@@ -1,1 +1,3 @@
 # clock
+
+Egy digitális óra.
