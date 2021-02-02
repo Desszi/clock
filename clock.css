@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0px;
+}
+
+.contant {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    display: flex;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 12rem;
+}
+
+.time {
+    color: #1197d4;
+    font-weight: 400;
+}
+
+
+
+
