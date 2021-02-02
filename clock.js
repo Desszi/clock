@@ -3,7 +3,7 @@
 const actualTime =() => {
     const time = document.querySelector('.time');
     const nowDate = new Date();
-    const nowLocalTime = nowDate.toLocaleDateString('hu');
+    const nowLocalTime = nowDate.toLocaleTimeString('hu');
     time.textContent = nowLocalTime;
 };
 
